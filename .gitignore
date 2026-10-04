@@ -1,0 +1,45 @@
+# Private settings and local documentation
+config*.json
+!config.example.json
+*.local.json
+README.ja.local.md
+README.ja.md.local
+
+# OAuth credentials, tokens, and browser login state
+credentials*.json
+*.credentials.json
+client_secret*.json
+auth*.json
+*token*.json
+browser-state*.json
+browser_state*.json
+storage-state*.json
+storage_state*.json
+.env
+.env.*
+browser-profile/
+
+# Exported business data, logs, and environment backups
+temp/
+output/
+logs/
+*.log
+.gas-export/
+
+# Python environments, build products, and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db

@@ -1,0 +1,17 @@
+{
+  "credentials": "credentials.json",
+  "out": "output",
+  "logs": "logs",
+  "shared": true,
+  "includeEmpty": false,
+  "folders": [
+    {
+      "name": "取得対象フォルダ",
+      "id": "YOUR_FOLDER_ID"
+    }
+  ],
+  "projectSelections": {},
+  "driveToken": "token.drive.readonly.json",
+  "scriptToken": "token.script.json",
+  "browserProfile": "browser-profile"
+}

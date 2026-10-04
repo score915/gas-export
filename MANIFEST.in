@@ -1,0 +1,10 @@
+include LICENSE README.md README.ja.md config.example.json requirements.txt *.bat run.py
+recursive-include tests *.py
+recursive-include tools *.bat *.ps1
+prune output
+prune logs
+prune temp
+prune browser-profile
+prune .gas-export
+prune .venv
+global-exclude *.local *.local.md *.local.json *token*.json credentials*.json *.credentials.json client_secret*.json auth*.json browser-state*.json browser_state*.json storage-state*.json storage_state*.json .env .env.* *.log *.py[cod]
